@@ -1,0 +1,289 @@
+.navbar{
+    background-color: rgb(20, 230, 132); 
+}
+
+.navbar-link{
+    margin-right: 2em;
+}
+.navbar-link, .navbar-brand, a{
+    color: white;
+    /* text-shadow: 2px 2px 3px; */
+    transition: 500ms;
+
+}
+.navbar-link, a:hover{
+    color:rgb(0,182, 137);
+    background-color: white;
+} 
+
+.header{
+    position: relative;
+    /* background-image: url(../images/team-leader-writing-on-white-board-picjumbo-com.jpg); */
+    background-position: center;
+    background-size: cover;
+}
+
+.header video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     opacity: 1;
+    object-fit: cover;
+    background: rgb(0,182, 137);
+    mix-blend-mode: luminosity;
+   
+}
+
+.header-blog{
+    position: relative;
+    background-image: url(../images/team-leader-writing-on-white-board-picjumbo-com.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+   opacity: 1;
+}
+
+
+
+
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0.5;
+    background: rgb(1, 32, 46);
+    mix-blend-mode: darken;
+   
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+
+}
+.description h1{
+    color: white;
+}
+
+.description p{
+    color: white;
+    font-size: 1.1em;
+    /* font-weight: bold; */
+    width: 70%;
+    line-height: 2;
+}
+
+.description button{
+    border: rgb(20, 230, 132);
+    background: rgb(20, 230, 132);
+    color: white;
+}
+
+.about{
+    position: relative;
+    margin: 4em;
+}
+.about h1{
+    color: rgb(20, 230, 132);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.about img{
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 20%;
+}
+
+.about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 125px;
+}
+
+.about .about-container{
+    padding: 2em;
+    border-left: 2px solid rgb(214, 214, 214) ;
+}
+
+.mortgage{
+    position: relative;
+    margin: 4em;
+}
+
+.mortgage h1{
+    color: rgb(20, 230, 132) ;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.mortgage img{
+    margin: 1em;
+    width: 100%;
+    transition: 500ms;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.mortgage img:hover{
+    opacity: 1;
+}
+
+
+.contact-form{
+    position: relative;
+    margin: 6em;
+}
+
+.contact-form h1{
+    font-size: 3.2em;
+}
+
+.contact-form .myform .btn{
+    max-width: 600px;
+}
+
+.contact-form .myform .btn-success{
+   background: white;
+    color:rgb(20, 230, 132);
+    font-size: 22px;
+    padding: 5px;
+    transition: 500ms;
+}
+
+.contact-form .myform .btn-success:hover{
+    background: rgb(20, 230, 132);
+    color: white;
+    border: 1px solid; 
+}
+
+.card-footer{
+    background: rgb(20, 230, 132);
+    
+}
+
+.card-footer a{
+    /* color: white; */
+    text-decoration: none;
+}
+.card-title {
+    /* color: rgb(20, 230, 132); */
+}
+
+/* CSS for blog section */
+.blog{
+    position: relative;
+    margin: 4em;
+}
+
+.blog-item{
+    position: relative;
+    overflow: hidden;
+}
+
+.blog .des{
+    background:rgb(20, 230, 132) ;
+    color: white;
+    text-align: center;
+    border-bottom-right-radius: 50%;
+    transition: 0.4s ease-in-out;
+    position: absolute;
+    width: 89%;
+    bottom: 24px;
+}
+
+.blog .item:hover .des{
+    height: 100%;
+    background: rgb(20, 230, 132);
+    position: absolute;
+    top: 0;
+    width: 92%;
+    padding: 5em;
+    /* font-size: 20px; */
+    border-top-right-radius: 0;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.blog .item:hover .des h6{
+    font-size: 2.0em;
+    font-weight: 600;
+    color: rgb(0, 65, 27);
+}
+
+
+/* Custom CSS FOR MY SCROLL BAR */
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px;
+    border-radius:10px;
+
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(17, 226, 69, 0.466);
+}
+
+
+
+/* CSS FOR AVAILABLE MORTGAGE */
+
+.Available {
+    position: relative;
+    margin: 4em;
+}
+
+.Available h1{
+    color: rgb(20, 230, 132) ;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.Available .card{
+    margin: 1em;
+    width: 100%;
+    transition: 500ms;
+    /* opacity: 0.5; */
+    cursor: pointer;
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 30%;
+}
+
+/* .Available .card:hover{
+    opacity: 1;
+} */
+
+.Available .card .card-footer{
+    background:rgb(20, 230, 132) ;
+    color: white;
+    text-align: center;
+    border-bottom-right-radius: 40%;
+    /* transition: 0.4s ease-in-out; */
+    /* position: absolute; */
+  
+    bottom: 14px;
+}
+
+.Available .card:hover .card-footer{
+    
+    background: rgb(20, 230, 132);
+    position: absolute;
+    
+    width: 95%;
+    padding: 5em;
+    /* font-size: 20px; */
+    border-top-right-radius: 0;
+    opacity: 0.7;
+    cursor: pointer;
+}
