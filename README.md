@@ -1,2 +1,2 @@
 #bootcamp
-This is my first bootcamp repository
+Bootcamp Bootstrap Real Estate Project
